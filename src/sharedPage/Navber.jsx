@@ -1,7 +1,7 @@
 const Navber = () => {
   return (
     <div>
-     <div className="navbar fixed z-10 bg-blue-400 shadow-md  ">
+     <div className="navbar  fixed z-10 max-w-screen-xl bg-blue-400 shadow-md  ">
         <div className="navbar-start">
           <div className="dropdown">
             <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -78,7 +78,7 @@ const Navber = () => {
             <li>
               <details>
                 <summary>Solustions</summary>
-                <ul className=" text-black opacity-70">
+                <ul className=" text-black opacity-70 shadow-md">
                   <li>
                     <a>AnyCaaS</a>
                   </li>
@@ -104,7 +104,7 @@ const Navber = () => {
             <li>
               <details>
                 <summary className="px-4 py-2 border border-white rounded-full">EN</summary>
-                <ul className=" text-black opacity-70 ">
+                <ul className=" text-black opacity-70 shadow-lg ">
                   <li>
                     <a>En</a>
                   </li>
@@ -122,7 +122,7 @@ const Navber = () => {
           </ul>
         </div>
         <div className="navbar-end">
-          <a className="border border-white text-white font-medium px-6 py-3 md:mx-10 rounded">Contact Us</a>
+          <a className="border border-white btn bg-blue-400 text-white">Contact Us</a>
         </div>
       </div>
     </div>

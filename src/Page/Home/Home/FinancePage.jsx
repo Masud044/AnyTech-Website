@@ -3,13 +3,13 @@ const FinancePage = () => {
     <div className="bg-[url('/Background/WaveLinesMobile2.svg')] bg-cover bg-center ">
       <div className="p-4 md:flex ">
         <div className="">
-          <h1 className="text-blue-500 text-2xl mt-10">
+          <h1 className="text-blue-500 text-2xl font-bold mt-10 font-sans">
             POWERING THE FUTURE OF FINANCE
           </h1>
-          <h1 className="text-6xl font-bold mt-10 ">
+          <h1 className="text-6xl font-bold mt-10 font-mono text-blue-950 opacity-95">
             Uncovering new <br /> ways to delight <br /> customers
           </h1>
-          <p className="text-2xl font-semibold mt-8">
+          <p className="text-2xl font-semibold mt-8 font-serif text-blue-950 opacity-80">
             AnyTech is revolutionising financial technology by introducing{" "}
             <br /> innovative and real-time transaction account processing
             capabilities, <br /> specifically designed for retail financial
@@ -21,12 +21,12 @@ const FinancePage = () => {
             technology for lasting <br /> success.
           </p>
         </div>
-        <div className="relative w-[400px] h-[500px] mx-auto rounded-lg  shadow-lg ">
+        <div className="relative w-[400px] h-[500px]  rounded-lg  shadow-lg ">
           {/* Main Background Image */}
           <img
             src="https://i.ibb.co.com/4ZjK7d1R/5ca8af1a922b106b962c34781483bc8e6e066688-1124x1364.jpg" // Replace with your image path
             alt="Finance Professional"
-            className="md:w-full w-[90%] h-full  object-cover"
+            className="w-full h-full  object-cover"
           />
 
           {/* Top Left Icon */}
