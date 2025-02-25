@@ -22,7 +22,7 @@ const FeatureFinance = () => {
    
 
   return (
-    <div className="mt-20">
+    <div className="mt-20 mb-20">
       <h1 className="text-blue-500 text-2xl font-bold mt-10 font-sans text-center">
         TECHNOLOGY BUILT FOR YOU
       </h1>
@@ -62,7 +62,7 @@ const FeatureFinance = () => {
           className="mySwiper"
         >
           <SwiperSlide >
-             <div className="md:grid md:grid-cols-2 gap-10 p-10 bg-base-100 shadow-2xl rounded-xl">
+             <div className="md:grid md:grid-cols-2 ml-10 mr-10 mt-10 mb-10 gap-10 p-10 bg-base-100  shadow-2xl rounded-2xl   items-center">
                   <div>
                     <h1 className="text-blue-500 text-2xl font-bold font-sans ">Customer focused</h1>
                   <h2 className="text-4xl font-bold mt-6 font-mono text-blue-950 opacity-95 ">Purpouse built financial service</h2>
@@ -83,7 +83,7 @@ const FeatureFinance = () => {
           </SwiperSlide>
           <SwiperSlide>
            
-            <div className="md:grid md:grid-cols-2 gap-10 p-10 bg-base-100 shadow-2xl rounded-xl">
+            <div className="md:grid md:grid-cols-2 gap-10 p-10 bg-base-100 shadow-2xl items-center rounded-2xl ml-10 mr-10 mt-10">
                   <div>
                     <h1 className="text-blue-500 text-2xl font-bold font-sans ">Customer focused</h1>
                   <h2 className="text-4xl font-bold mt-6 font-mono text-blue-950 opacity-95 ">Purpouse built financial service</h2>
@@ -103,7 +103,7 @@ const FeatureFinance = () => {
           </SwiperSlide>
           <SwiperSlide>
            
-            <div className="md:grid md:grid-cols-2 gap-10 p-10 bg-base-100 shadow-2xl rounded-xl">
+            <div className="md:grid md:grid-cols-2 gap-10 p-10 bg-base-100 shadow-2xl items-center rounded-2xl ml-10 mr-10 mt-10">
                   <div>
                     <h1 className="text-blue-500 text-2xl font-bold font-sans ">Customer focused</h1>
                   <h2 className="text-4xl font-bold mt-6 font-mono text-blue-950 opacity-95 ">Purpouse built financial service</h2>
@@ -122,7 +122,7 @@ const FeatureFinance = () => {
              </div>
           </SwiperSlide>
           <SwiperSlide>
-          <div className="md:grid md:grid-cols-2 gap-10 p-10 bg-base-100 shadow-2xl rounded-xl">
+          <div className="md:grid md:grid-cols-2 gap-10 p-10 bg-base-100 shadow-2xl items-center rounded-2xl ml-10 mr-10 mt-10 mb-10">
                   <div>
                     <h1 className="text-blue-500 text-2xl font-bold font-sans ">Customer focused</h1>
                   <h2 className="text-4xl font-bold mt-6 font-mono text-blue-950 opacity-95 ">Purpouse built financial service</h2>

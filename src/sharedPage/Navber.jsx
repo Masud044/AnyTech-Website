@@ -70,7 +70,7 @@ const Navber = () => {
             </li>
             </ul>
           </div>
-          <a className="btn btn-ghost text-xl">AnyTech</a>
+          <a className="btn btn-ghost text-xl"><img src="https://i.ibb.co.com/jknSK8qr/ed83f5f1e94efb47572d503f53456dcff902b81c-200x32.webp" alt="" /></a>
         </div>
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal px-1 text-xl  space-x-8 text-white font-normal">
